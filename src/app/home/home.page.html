@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list ngFor="let elemento of lista">
+    <ion-item>
+      {{elemento}}
+    </ion-item>
+  </ion-list>
+<ion-button expand="block" routerLink="/login">Voltar</ion-button>
+</ion-content>
